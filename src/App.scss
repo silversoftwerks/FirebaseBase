@@ -1,0 +1,51 @@
+ol, ul{
+  list-style: none;
+  padding: 0;
+}
+
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+}
+p {
+	padding-bottom: 2em;
+}
+.button {
+	padding: 1em;
+	margin: 1em 1em 1em 0;
+	border: 1px solid hsl(182, 25%, 25%);
+	border-radius: 6px;
+	text-decoration: none;
+	font-family: 'Roboto';
+	color: hsl(182, 25%, 25%);
+	background: hsl(182, 25%, 50%);
+}
+.navigation {
+	background: hsl(182, 25%, 50%);
+	display: flex;
+	justify-content: flex-end;
+	ul {
+		display: flex;
+		list-style: none;
+		padding: 0;
+		li {
+			margin-right: 1em;
+			a {
+				color: hsl(182, 25%, 87%);
+				text-decoration: none;
+				font-family: 'Roboto', sans-serif;
+			}
+		}
+	}
+}
+
+.registrationForm {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+}
+
+.submitRegistration {
+	width: 80px;
+}

@@ -1,2 +1,0 @@
-# FirebaseBase
-Created with CodeSandbox
